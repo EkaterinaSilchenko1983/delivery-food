@@ -1,0 +1,177 @@
+[
+  {
+    "title": "Pepperoni",
+    "desc": "Classic pizza with pepperoni, mozzarella, and tomato sauce",
+    "img": "https://source.unsplash.com/featured/?pizza",
+    "prices": "15",
+    "restaurant": "Papa John"
+  },
+  {
+    "title": "Margherita",
+    "desc": "Classic pizza with mozzarella, tomato sauce, and basil",
+    "img": "https://source.unsplash.com/featured/?margherita+pizza",
+    "prices": "12",
+    "restaurant": "Papa John"
+  },
+  {
+    "title": "Hawaiian",
+    "desc": "Pizza with ham, pineapple, mozzarella, and tomato sauce",
+    "img": "https://source.unsplash.com/featured/?hawaiian+pizza",
+    "prices": "14",
+    "restaurant": "Papa John"
+  },
+  {
+    "title": "Four Cheese",
+    "desc": "Pizza with mozzarella, gorgonzola, parmesan, and provolone",
+    "img": "https://source.unsplash.com/featured/?four+cheese+pizza",
+    "prices": "13",
+    "restaurant": "Papa John"
+  },
+  {
+    "title": "Vegetarian",
+    "desc": "Pizza with tomatoes, mushrooms, bell peppers, onions, and mozzarella",
+    "img": "https://source.unsplash.com/featured/?vegetarian+pizza",
+    "prices": "15",
+    "restaurant": "Papa John"
+  },
+  {
+    "title": "Sushi Platter",
+    "desc": "Assortment of fresh sushi rolls and sashimi",
+    "img": "https://source.unsplash.com/featured/?sushi",
+    "prices": "25",
+    "restaurant": "Murakami"
+  },
+  {
+    "title": "Ramen",
+    "desc": "Traditional Japanese noodle soup with broth, noodles, and various toppings",
+    "img": "https://source.unsplash.com/featured/?ramen",
+    "prices": "15",
+    "restaurant": "Murakami"
+  },
+  {
+    "title": "Tempura",
+    "desc": "Lightly battered and deep-fried seafood and vegetables",
+    "img": "https://source.unsplash.com/featured/?tempura",
+    "prices": "18",
+    "restaurant": "Murakami"
+  },
+  {
+    "title": "Teriyaki Chicken",
+    "desc": "Grilled chicken glazed with a sweet and savory teriyaki sauce",
+    "img": "https://source.unsplash.com/featured/?teriyaki+chicken",
+    "prices": "20",
+    "restaurant": "Murakami"
+  },
+  {
+    "title": "Miso Soup",
+    "desc": "Traditional Japanese soup made with miso paste, tofu, seaweed, and scallions",
+    "img": "https://source.unsplash.com/featured/?miso+soup",
+    "prices": "8",
+    "restaurant": "Murakami"
+  },
+  {
+    "title": "Caprese Salad",
+    "desc": "Fresh tomato, mozzarella, and basil salad drizzled with balsamic glaze",
+    "img": "https://source.unsplash.com/featured/?caprese",
+    "prices": "12",
+    "restaurant": "Rucola"
+  },
+  {
+    "title": "Pasta Carbonara",
+    "desc": "Classic Italian pasta dish with bacon, eggs, Parmesan cheese, and black pepper",
+    "img": "https://source.unsplash.com/featured/?carbonara",
+    "prices": "16",
+    "restaurant": "Rucola"
+  },
+  {
+    "title": "Margherita Pizza",
+    "desc": "Traditional pizza with mozzarella, tomato sauce, and basil",
+    "img": "https://source.unsplash.com/featured/?margherita+pizza",
+    "prices": "14",
+    "restaurant": "Rucola"
+  },
+  {
+    "title": "Chicken Parmesan",
+    "desc": "Breaded chicken cutlets topped with tomato sauce and melted mozzarella cheese",
+    "img": "https://source.unsplash.com/featured/?chicken+parmesan",
+    "prices": "18",
+    "restaurant": "Rucola"
+  },
+  {
+    "title": "Tiramisu",
+    "desc": "Classic Italian dessert with layers of ladyfingers, mascarpone cheese, and coffee liqueur",
+    "img": "https://source.unsplash.com/featured/?tiramisu",
+    "prices": "8",
+    "restaurant": "Rucola"
+  },
+  {
+    "title": "Khachapuri",
+    "desc": "Traditional Georgian cheese bread made with a blend of cheeses and baked until golden and gooey",
+    "img": "https://source.unsplash.com/featured/?khachapuri",
+    "prices": "10",
+    "restaurant": "Gogi"
+  },
+  {
+    "title": "Satsivi",
+    "desc": "Roasted chicken or turkey in a creamy walnut sauce flavored with Georgian spices",
+    "img": "https://source.unsplash.com/featured/?satsivi",
+    "prices": "18",
+    "restaurant": "Gogi"
+  },
+  {
+    "title": "Khinkali",
+    "desc": "Traditional Georgian dumplings filled with seasoned meat or cheese and served with a savory broth",
+    "img": "https://source.unsplash.com/featured/?khinkali",
+    "prices": "14",
+    "restaurant": "Gogi"
+  },
+  {
+    "title": "Shashlik",
+    "desc": "Grilled skewers of marinated meat, typically pork, beef, or lamb, with a smoky and flavorful taste",
+    "img": "https://source.unsplash.com/featured/?shashlik",
+    "prices": "20",
+    "restaurant": "Gogi"
+  },
+  {
+    "title": "Chakhokhbili",
+    "desc": "Georgian chicken stew with tomatoes, onions, and a fragrant blend of herbs and spices",
+    "img": "https://source.unsplash.com/featured/?chakhokhbili",
+    "prices": "16",
+    "restaurant": "Gogi"
+  },
+  {
+    "title": "Big Mac",
+    "desc": "Iconic burger with two beef patties, special sauce, lettuce, cheese, pickles, and onions",
+    "img": "https://source.unsplash.com/featured/?big+mac",
+    "prices": "5",
+    "restaurant": "McDonald's"
+  },
+  {
+    "title": "McChicken",
+    "desc": "Chicken sandwich with a breaded chicken patty, lettuce, and mayonnaise",
+    "img": "https://source.unsplash.com/featured/?mcchicken",
+    "prices": "4",
+    "restaurant": "McDonald's"
+  },
+  {
+    "title": "French Fries",
+    "desc": "Crispy and golden potato fries, served hot and seasoned with salt",
+    "img": "https://source.unsplash.com/featured/?french+fries",
+    "prices": "2",
+    "restaurant": "McDonald's"
+  },
+  {
+    "title": "Filet-O-Fish",
+    "desc": "Fish fillet sandwich with tartar sauce, cheese, and a soft bun",
+    "img": "https://source.unsplash.com/featured/?filet-o-fish",
+    "prices": "4",
+    "restaurant": "McDonald's"
+  },
+  {
+    "title": "McFlurry",
+    "desc": "Creamy soft-serve ice cream with a choice of mix-ins like Oreo, M&M's, or caramel",
+    "img": "https://source.unsplash.com/featured/?mcflurry",
+    "prices": "3",
+    "restaurant": "McDonald's"
+  }
+]
