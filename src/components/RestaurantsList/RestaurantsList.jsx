@@ -11,7 +11,7 @@ export const RestaurantsList = ({ restaurants, restaurantName }) => {
   const tabRef = useRef();
   const { events } = useDraggable(tabRef);
 
-  console.log(restaurantName, restaurants);
+  // console.log(restaurantName, restaurants);
   return (
     <>
       <WrapperRestaurants>

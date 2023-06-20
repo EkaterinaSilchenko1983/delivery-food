@@ -7,6 +7,7 @@ import { ProductList } from './ProductCardsList.styled';
 import { addProduct } from '../../redux/Cart/cart-slice';
 
 import { products } from '../../shared/API/restaurants';
+import { toast } from 'react-toastify';
 
 export const ProductCardsList = () => {
   const addedProducts = useSelector(state => {
@@ -30,7 +31,7 @@ export const ProductCardsList = () => {
 
   const handleAddBtn = product => {
     if (addedProducts.find(({ id }) => id === product.id)) {
-      return alert('this product already in bucket!');
+      return toast('This product already in bucket!');
     }
 
     dispatch(addProduct(product));
@@ -47,7 +48,7 @@ export const ProductCardsList = () => {
               img={img}
               desc={desc}
               prices={prices}
-              onClick={() => handleAddBtn({ id, prices, title })}
+              onClick={() => handleAddBtn({ id, prices, title, img })}
             />
           </li>
         ))}

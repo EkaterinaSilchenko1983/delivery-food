@@ -9,6 +9,7 @@ export const Cart = () => {
   const orderedProducts = useSelector(state => {
     return state.cart;
   });
+  console.log(orderedProducts);
 
   const dispatch = useDispatch();
 
@@ -20,13 +21,16 @@ export const Cart = () => {
     <>
       <ProductsListCart>
         <h2>Your cart</h2>
-        {orderedProducts.map(({ id, prices, title, img }) => (
+        {orderedProducts.map(({ id, prices, title, img, amount, total }) => (
           <li key={id}>
             <CartItem
+              id={id}
               prices={prices}
               title={title}
               img={img}
               onClick={() => handleDelete(id)}
+              amount={amount}
+              total={total}
             />
           </li>
         ))}
