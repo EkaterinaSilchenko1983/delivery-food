@@ -11,7 +11,7 @@ import {
   WrapperButton,
 } from './ProductCard.styled';
 
-export const ProductCard = ({ id, title, img, desc, prices }) => {
+export const ProductCard = ({ id, title, img, desc, prices, onClick }) => {
   return (
     <>
       <ProductWrapper>
@@ -27,7 +27,7 @@ export const ProductCard = ({ id, title, img, desc, prices }) => {
           </CardMeta>
         </StyledLink>
         <WrapperButton>
-          <AddButton>Add to cart</AddButton>
+          <AddButton onClick={onClick}>Add to cart</AddButton>
         </WrapperButton>
       </ProductWrapper>
     </>

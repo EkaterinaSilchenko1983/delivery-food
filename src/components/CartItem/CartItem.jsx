@@ -9,22 +9,23 @@ import {
   WrapperBetween,
 } from './CartItem.styled';
 
-export const CartItem = () => {
+export const CartItem = ({ prices, title, img, onClick }) => {
   return (
     <WrapperCartItem>
-      <ItemImg src="img" alt="title" width="450" height="404" />
+      <ItemImg src={img} alt={title} />
       <Wrapper>
-        <ItemTitle>title</ItemTitle>
-        <ItemPrices>prices $</ItemPrices>
+        <ItemTitle>{title}</ItemTitle>
+        <ItemPrices>{prices} $</ItemPrices>
         <WrapperBetween>
           <WrapperButton>
-            <button> -</button>
+            <button> - </button>
             <p> 1 </p>
             <button> + </button>
           </WrapperButton>
           <WrapperTotal>
             <p>Total: 5$</p>
           </WrapperTotal>
+          <button onClick={onClick}>Delete</button>
         </WrapperBetween>
       </Wrapper>
     </WrapperCartItem>
